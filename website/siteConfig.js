@@ -39,9 +39,9 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: 'docs-about', label: 'Docs'},
-    { doc: 'docs-orders', label: 'API'},
-    { page: 'help', label: 'Help'},
+    { doc: 'docs-about', label: '文档'},
+    { doc: 'docs-orders', label: '接口'},
+    { page: 'help', label: '帮助'},
     { href: "https://github.com/limschain/lims-docs", label: "GitHub" },
     { search: true },
     { languages: true }
