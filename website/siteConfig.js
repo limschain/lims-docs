@@ -114,6 +114,11 @@ const siteConfig = {
       type: 'text/css',
     },
   ],
+
+  algolia: {
+    apiKey: "50f146671f366ad09b75adac10937be8",
+    indexName: "github"
+  },
 };
 
 module.exports = siteConfig;
