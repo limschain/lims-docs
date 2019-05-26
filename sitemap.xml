@@ -5,9 +5,15 @@
 <url> <loc>http://help.limschain.com/users</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="http://help.limschain.com/en/users" /> </url>
 <url> <loc>http://help.limschain.com/docs/docs-readme</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://help.limschain.com/docs/docs-readme" /> </url>
 <url> <loc>http://help.limschain.com/docs/docs-about</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://help.limschain.com/docs/docs-about" /> </url>
+<url> <loc>http://help.limschain.com/docs/docs-buy</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://help.limschain.com/docs/docs-buy" /> </url>
+<url> <loc>http://help.limschain.com/docs/docs-customers</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://help.limschain.com/docs/docs-customers" /> </url>
+<url> <loc>http://help.limschain.com/docs/docs-departments</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://help.limschain.com/docs/docs-departments" /> </url>
+<url> <loc>http://help.limschain.com/docs/docs-employees</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://help.limschain.com/docs/docs-employees" /> </url>
 <url> <loc>http://help.limschain.com/docs/docs-limschain</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://help.limschain.com/docs/docs-limschain" /> </url>
-<url> <loc>http://help.limschain.com/docs/docs-mission</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://help.limschain.com/docs/docs-mission" /> </url>
+<url> <loc>http://help.limschain.com/docs/docs-missions</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://help.limschain.com/docs/docs-missions" /> </url>
 <url> <loc>http://help.limschain.com/docs/docs-orders</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://help.limschain.com/docs/docs-orders" /> </url>
-<url> <loc>http://help.limschain.com/docs/docs-sample</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://help.limschain.com/docs/docs-sample" /> </url>
-<url> <loc>http://help.limschain.com/docs/docs-task</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://help.limschain.com/docs/docs-task" /> </url>
+<url> <loc>http://help.limschain.com/docs/docs-reports</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://help.limschain.com/docs/docs-reports" /> </url>
+<url> <loc>http://help.limschain.com/docs/docs-roles</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://help.limschain.com/docs/docs-roles" /> </url>
+<url> <loc>http://help.limschain.com/docs/docs-samples</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://help.limschain.com/docs/docs-samples" /> </url>
+<url> <loc>http://help.limschain.com/docs/docs-tasks</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="http://help.limschain.com/docs/docs-tasks" /> </url>
 </urlset>
