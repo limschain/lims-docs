@@ -1,0 +1,21 @@
+{
+  "docs": {
+    "入门知识": [
+      "docs-about", 
+      "docs-limschain"
+    ],
+    "功能介绍": [
+      "docs-orders",
+      "docs-tasks",
+      "docs-samples",
+      "docs-missions",
+      "docs-reports",
+      "docs-customers",
+      "docs-employees",
+      "docs-departments",
+      "docs-roles"
+    ],
+    "参与维护": ["docs-readme"]
+  }
+  
+}
