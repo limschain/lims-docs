@@ -23,8 +23,8 @@ const users = [
 const siteConfig = {
   title: 'Limschain帮助', // Title for your website.
   tagline: '基于区块链的检验检测云平台',
-  url: 'https://limschain.github.io', // Your website URL
-  baseUrl: '/lims-docs/', // Base URL for your project */
+  url: 'http://help.limschain.com', // Your website URL
+  baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -32,6 +32,7 @@ const siteConfig = {
   // Used for publishing and more
   projectName: 'lims-docs',
   organizationName: 'limschain',
+  cname: 'help.limschain.com',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -102,9 +103,9 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: 'http://git.ebookchain.net/lims/lims-docs',
+  repoUrl: 'https://github.com/limschain/lims-docs',
 
-  editUrl: 'http://git.ebookchain.net/lims/lims-docs/edit/master/docs/',
+  editUrl: 'https://github.com/limschain/lims-docs/edit/master/docs/',
   scrollToTop: true,
   stylesheets: [
     'https://docusaurus.io/style.css',

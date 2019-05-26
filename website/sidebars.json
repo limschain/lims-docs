@@ -2,7 +2,8 @@
   "docs": {
     "入门知识": [
       "docs-about", 
-      "docs-limschain"
+      "docs-limschain",
+      "docs-buy"
     ],
     "功能介绍": [
       "docs-orders",

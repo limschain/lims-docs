@@ -5,14 +5,57 @@
     "previous": "Previous",
     "tagline": "基于区块链的检验检测云平台",
     "docs": {
+      "docs-readme": {
+        "title": "如何贡献",
+        "sidebar_label": "如何贡献"
+      },
       "docs-about": {
-        "title": "docs-about"
+        "title": "关于本文档",
+        "sidebar_label": "关于本文档"
+      },
+      "docs-buy": {
+        "title": "如何购买",
+        "sidebar_label": "如何购买"
+      },
+      "docs-customers": {
+        "title": "客户管理",
+        "sidebar_label": "客户管理"
+      },
+      "docs-departments": {
+        "title": "部门管理",
+        "sidebar_label": "部门管理"
+      },
+      "docs-employees": {
+        "title": "员工管理",
+        "sidebar_label": "员工管理"
       },
       "docs-limschain": {
-        "title": "docs-limschain"
+        "title": "关于产品",
+        "sidebar_label": "关于产品"
+      },
+      "docs-missions": {
+        "title": "检测管理",
+        "sidebar_label": "检测管理"
       },
       "docs-orders": {
-        "title": "docs-orders"
+        "title": "合同管理",
+        "sidebar_label": "合同管理"
+      },
+      "docs-reports": {
+        "title": "报告管理",
+        "sidebar_label": "报告管理"
+      },
+      "docs-roles": {
+        "title": "角色管理",
+        "sidebar_label": "角色管理"
+      },
+      "docs-samples": {
+        "title": "样品管理",
+        "sidebar_label": "样品管理"
+      },
+      "docs-tasks": {
+        "title": "任务管理",
+        "sidebar_label": "任务管理"
       }
     },
     "links": {

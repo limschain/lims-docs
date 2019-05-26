@@ -1,3 +1,9 @@
+---
+id: docs-readme
+title: 如何贡献
+sidebar_label: 如何贡献
+---
+
 This website was created with [Docusaurus](https://docusaurus.io/).
 
 # What's In This Document
