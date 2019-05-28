@@ -4,7 +4,7 @@ title: 样品管理
 sidebar_label: 样品管理
 ---
 
-## 1.样品列表
+## 样品列表
 
 #### 功能概述
 
@@ -18,7 +18,7 @@ sidebar_label: 样品管理
 #### 操作说明
  <html><span id=''></span></html>
 
-点击{实验室管理}-->{样品管理}-->{样品列表}菜单，弹出[样品列表页面](#样品列表页面),如下图所示：
+点击{实验室信息管理}-->{样品管理}-->{样品列表}菜单，弹出[样品列表页面](#样品列表页面),如下图所示：
 
  <html><span id='样品列表页面'></span></html>
 
@@ -33,6 +33,7 @@ sidebar_label: 样品管理
  ![制样任务完成提醒对话框](http://datmfiles.ebookchain.org/1JE9RoC3tnb%E6%A0%B7%E5%93%81%E7%AE%A1%E7%90%86-%E5%88%B6%E6%A0%B7%E4%BB%BB%E5%8A%A1%E5%AE%8C%E6%88%90%E6%8F%90%E9%86%92%E5%AF%B9%E8%AF%9D%E6%A1%86.png "制样任务完成提醒对话框")
  
  点击【对，已完成】弹出，如下图所示：
+ 
   ![制样任务完成提醒对话框](http://datmfiles.ebookchain.org/1JEaONUCiGL%E6%A0%B7%E5%93%81%E7%AE%A1%E7%90%86-%E5%88%B6%E5%A4%87%E5%B7%B2%E5%AE%8C%E6%88%90%EF%BC%8C%E5%B9%B6%E9%80%9A%E7%9F%A5%E6%A3%80%E6%B5%8B%E4%BA%BA%E5%91%98%E5%8F%AF%E9%A2%86%E6%A0%B7%E6%8F%90%E9%86%92%E5%AF%B9%E8%AF%9D%E6%A1%86.png "制样任务完成提醒对话框")
   
  点击【OK】 完成制样操作。
@@ -64,7 +65,7 @@ sidebar_label: 样品管理
 
  <html><span id='领样'></span></html>
  
-## 2.领样
+## 领样
 
 #### 功能概述
    制样完成后，由检测人员向制样人员领取样品。
@@ -74,7 +75,7 @@ sidebar_label: 样品管理
 [领样品信息页面](#领样品信息页面)，如下图所示：
 <html><span id='领样品信息页面'></span></html>
 
-![样品列表-领样信息页面](http://datmfiles.ebookchain.org/1JhnE0lzZkpLES-%E6%A0%B7%E5%93%81%E7%AE%A1%E7%90%86-%E9%A2%86%E5%8F%96%E6%A0%B7%E5%93%81%E9%A1%B5%E9%9D%A2.png "领样品信息页面")
+![样品列表-领样信息页面](http://datmfiles.ebookchain.org/1JJoMxeav5k%E6%A0%B7%E5%93%81%E7%AE%A1%E7%90%86-%E9%A2%86%E6%A0%B7%E5%93%81%E4%BF%A1%E6%81%AF%E9%A1%B5%E9%9D%A2.png "领样品信息页面")
 
 在[领样品信息页面](#领样品信息页面)中执行领样操作。操作步骤如下：
 
@@ -89,7 +90,7 @@ sidebar_label: 样品管理
 
 <html><span id='打印样品标签'></span></html>
  
- ## 3.打印样品标签
+ ## 打印样品标签
 
 #### 操作说明
 
