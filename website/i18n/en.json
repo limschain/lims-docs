@@ -26,28 +26,36 @@
         "sidebar_label": "部门管理"
       },
       "docs-employees": {
-        "title": "员工管理",
-        "sidebar_label": "员工管理"
+        "title": "人员管理",
+        "sidebar_label": "人员管理"
+      },
+      "docs-equipment": {
+        "title": "设备管理",
+        "sidebar_label": "设备管理"
       },
       "docs-limschain": {
         "title": "关于产品",
         "sidebar_label": "关于产品"
+      },
+      "docs-material": {
+        "title": "标准物质",
+        "sidebar_label": "标准物质"
       },
       "docs-missions": {
         "title": "检测管理",
         "sidebar_label": "检测管理"
       },
       "docs-orders": {
-        "title": "合同管理",
-        "sidebar_label": "合同管理"
+        "title": "委托管理",
+        "sidebar_label": "委托管理"
       },
       "docs-reports": {
         "title": "报告管理",
         "sidebar_label": "报告管理"
       },
       "docs-roles": {
-        "title": "角色管理",
-        "sidebar_label": "角色管理"
+        "title": "岗位管理",
+        "sidebar_label": "岗位管理"
       },
       "docs-samples": {
         "title": "样品管理",

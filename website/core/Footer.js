@@ -36,39 +36,38 @@ class Footer extends React.Component {
             )}
           </a>
           <div>
-            <h5>Docs</h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}>
-              Getting Started (or other categories)
+            <h5>关于</h5>
+            <a href={this.docUrl('docs-about.html', this.props.language)}>
+              关于本文档
             </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides (or other categories)
+            <a href={this.docUrl('docs-limschain.html', this.props.language)}>
+              关于本平台
             </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference (or other categories)
+            <a href={this.docUrl('docs-buy.html', this.props.language)}>
+              如何购买？
             </a>
           </div>
           <div>
-            <h5>Community</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
+            <h5>社区</h5>
+            {/* <a href={this.pageUrl('users.html', this.props.language)}>
               User Showcase
-            </a>
+            </a> */}
             <a
-              href="http://stackoverflow.com/questions/tagged/"
+              href="https://weibo.com/6625552361/profile?rightmod=1&wvr=6&mod=personinfo"
               target="_blank"
               rel="noreferrer noopener">
-              Stack Overflow
+              微博
             </a>
-            <a href="https://discordapp.com/">Project Chat</a>
+            <a href="http://t.me/limschain">Telegram</a>
             <a
-              href="https://twitter.com/"
+              href="https://www.facebook.com/limschian_org"
               target="_blank"
               rel="noreferrer noopener">
-              Twitter
+              Facebook
             </a>
           </div>
           <div>
-            <h5>More</h5>
-            <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
+            <h5>更多</h5>
             <a href="https://github.com/">GitHub</a>
             <a
               className="github-button"
@@ -84,13 +83,13 @@ class Footer extends React.Component {
         </section>
 
         <a
-          href="https://opensource.facebook.com/"
+          href="http://limschain.com/"
           target="_blank"
           rel="noreferrer noopener"
           className="fbOpenSource">
           <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="Facebook Open Source"
+            src={`${this.props.config.baseUrl}img/logo.svg`}
+            alt="Limschain"
             width="170"
             height="45"
           />
