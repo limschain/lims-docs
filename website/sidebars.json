@@ -14,7 +14,9 @@
       "docs-customers",
       "docs-employees",
       "docs-departments",
-      "docs-roles"
+      "docs-roles",
+      "docs-equipment",
+      "docs-material"
     ],
     "参与维护": ["docs-readme"]
   }
