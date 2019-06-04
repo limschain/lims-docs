@@ -1,0 +1,257 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>任务管理 · 亿检链</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;&lt;strong&gt;任务管理&lt;/strong&gt; 就是将制样任务和检测任务分配或转移给部门或人。如果存在多个同种任务，可以分配给一个部门或人，也可以分配给不同部门或人。&lt;/p&gt;
+"/><meta name="docsearch:version" content="next"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="任务管理 · 亿检链"/><meta property="og:type" content="website"/><meta property="og:url" content="http://help.limschain.com/"/><meta property="og:description" content="&lt;p&gt;&lt;strong&gt;任务管理&lt;/strong&gt; 就是将制样任务和检测任务分配或转移给部门或人。如果存在多个同种任务，可以分配给一个部门或人，也可以分配给不同部门或人。&lt;/p&gt;
+"/><meta property="og:image" content="http://help.limschain.com/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="http://help.limschain.com/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-forest-light.min.css"/><link rel="stylesheet" href="https://docusaurus.io/style.css"/><link rel="stylesheet" href="http://css.link" type="text/css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100}
+          )
+        });
+        </script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/logo.svg" alt="亿检链"/><h2 class="headerTitleWithLogo">亿检链</h2></a><a href="/versions"><h3>next</h3></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/next/docs-about" target="_self">文档</a></li><li class="siteNavGroupActive"><a href="/docs/next/docs-orders" target="_self">接口</a></li><li class=""><a href="/help" target="_self">帮助</a></li><li class=""><a href="https://github.com/limschain/lims-docs" target="_self">GitHub</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>功能介绍</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">入门知识</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/next/docs-about">关于本文档</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-limschain">关于产品</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-buy">如何购买</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">功能介绍</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/next/docs-orders">委托管理</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/next/docs-tasks">任务管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-samples">样品管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-missions">检测管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-reports">报告管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-employees">人员管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-departments">部门管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-roles">岗位管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-equipment">设备管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-material">标准物质</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-customers">客户管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-performance">绩效管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-subcontract">分包管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-finance">财务管理</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">参与维护</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/next/docs-readme">如何贡献</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/limschain/lims-docs/edit/master/docs/lims-docs-tasks.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">任务管理</h1></header><article><div><span><p><strong>任务管理</strong> 就是将制样任务和检测任务分配或转移给部门或人。如果存在多个同种任务，可以分配给一个部门或人，也可以分配给不同部门或人。</p>
+<p><html><span id='委托列表'></span></html></p>
+<h2><a class="anchor" aria-hidden="true" id="委托列表"></a><a href="#委托列表" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>委托列表</h2>
+<h4><a class="anchor" aria-hidden="true" id="功能概述"></a><a href="#功能概述" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>功能概述</h4>
+<p>委托列表就是委托单的列表，一条记录就是一个委托单。委托单又称委托协议、委托合同、合同、抽样单。</p>
+<p>以委托单为单位分配制样任务和检测任务。</p>
+<h4><a class="anchor" aria-hidden="true" id="操作说明"></a><a href="#操作说明" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>操作说明</h4>
+<p>点击{实验室管理}--&gt;{任务管理}--&gt;{委托列表}菜单，弹出<a href="#委托列表页面">委托列表页面</a>,如下图所示：</p>
+<p><html><span id='委托列表页面'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1JDjsjMfRLG%E5%A7%94%E6%89%98%E7%AE%A1%E7%90%86-%E5%A7%94%E6%89%98%E5%88%97%E8%A1%A8.png" alt="委托列表页面" title="委托列表页面"></p>
+<p>在操作列中，可以一次性分配当前委托单下所有的任务，包括分配部门任务和分配人员任务。其中，分配部门任务包括<a href="#分配制样部门">分配制样部门</a>和<a href="#分配检测部门">分配检测部门</a>；分配人员任务包括<a href="#分配制样人员">分配制样人员</a>和<a href="#分配检测人员">分配检测人员</a>。具体操作如下：</p>
+<ul>
+<li><p><strong>分配制样部门</strong>  点击当前委托单右端【操作】--&gt;【分配制样部门】，执行<a href="#制样部门任务分配">制样部门任务分配操作</a>。</p></li>
+<li><p><strong>分配检测部门</strong> 点击当前委托单右端【操作】--&gt;【分配检测部门】，执行<a href="#检测部门任务分配">检测部门任务分配操作</a>。</p></li>
+</ul>
+<ul>
+<li><p><strong>分配制样人员</strong> 点击当前委托单右端【操作】--&gt;【分配制样人员】，执行<a href="#制样人员任务分配">制样人员任务分配操作</a>。</p></li>
+<li><p><strong>分配检测人员</strong> 点击当前委托单右端【操作】--&gt;【分配检测人员】，执行<a href="检测人员任务分配">检测人员任务分配操作</a>。</p></li>
+</ul>
+<p><html><span id='样品列表'></span></html></p>
+<h2><a class="anchor" aria-hidden="true" id="样品列表"></a><a href="#样品列表" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>样品列表</h2>
+<h4><a class="anchor" aria-hidden="true" id="功能概述-1"></a><a href="#功能概述-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>功能概述</h4>
+<p>样品列表就是委托样品列表，一条记录就是一个委托样品。</p>
+<p>以样品为单位分配制样任务。同时支持批量操作和单记录操作两种操作方式。</p>
+<h4><a class="anchor" aria-hidden="true" id="操作说明-1"></a><a href="#操作说明-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>操作说明</h4>
+<p>点击{实验室管理}--&gt;{任务管理}--&gt;{样品列表}菜单,弹出<a href="#样品列表页面">样品列表页面</a>，如下图所示：</p>
+<p><html><span id='样品列表页面'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1JE0yPlKTaY%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86-%E6%A0%B7%E5%93%81%E5%88%97%E8%A1%A8%E6%93%8D%E4%BD%9C%E9%A1%B5%E9%9D%A2.png" alt="样品列表页面" title="样品列表页面"></p>
+<p>在<a href="#样品列表页面">样品列表页面</a>中，可以样品为单位<a href="#批量分配制样部门">批量分配制样部门</a>、<a href="#批量分配制样人员">批量分配制样人员</a>、<a href="#批量转移部门">批量转移部门</a>、<a href="#批量转移人员">批量转移人员</a>。具体操作如下：</p>
+<ul>
+<li><p><strong>批量分配部门</strong>  选择待分配任务的样品，点击【批量分配部门】，弹出<a href="#批量分配部门操作页面">批量分配部门操作页面</a>执行<a href="#批量分配部门">批量分配部门操作</a>。</p></li>
+<li><p><strong>批量分配人员</strong>  选择待分配任务的样品，点击【批量分配人员】，弹出<a href="#批量分配人员操作页面">批量分配人员操作页面</a>执行<a href="#批量分配人员">批量分配人员操作</a>。</p></li>
+<li><p><strong>批量转移部门</strong> 选择待分配任务的样品，点击【批量转移部门】，弹出<a href="#批量转移部门操作页面">批量转移部门操作页面</a>执行<a href="#批量转移部门">批量转移部门操作</a>。</p></li>
+<li><p><strong>批量转移人员</strong> 选择待分配任务的样品，点击【批量转移人员】，弹出<a href="#批量转移人员操作页面">批量转移人员操作页面</a>执行<a href="#批量转移人员">批量转移人员操作</a>。</p></li>
+</ul>
+<p>在操作列中，可以针对当前样品<a href="#分配制样部门">分配制样部门</a>、<a href="#分配制样人员">分配制样人员</a>、<a href="#转移部门">转移部门</a>、<a href="#转移人员">转移人员</a>。具体操作如下：</p>
+<ul>
+<li><p><strong>分配制样部门</strong>  点击当前样品右端【操作】--&gt;【分配制样部门】，执行<a href="#制样部门任务分配">制样部门任务分配操作</a>。</p></li>
+<li><p><strong>分配制样人员</strong> 点击当前样品右端【操作】--&gt;【分配制样人员】，弹出<a href="#制样人员任务分配页面">制样人员任务分配页面</a>执行<a href="#制样人员任务分配">制样人员任务分配操作</a>。</p></li>
+<li><p><strong>转移部门</strong>  点击当前样品右端【操作】--&gt;【转移部门】，弹出<a href="#转移部门操作页面">转移部门操作页面</a>执行<a href="#转移部门">转移部门操作</a>。</p></li>
+<li><p><strong>转移人员</strong>   点击当前样品右端【操作】--&gt;【转移人员】，弹出<a href="#转移人员操作页面">转移人员操作页面</a>执行<a href="#转移人员">转移人员操作</a>。</p></li>
+</ul>
+<p><html><span id='检测列表'></span></html></p>
+<h2><a class="anchor" aria-hidden="true" id="检测列表"></a><a href="#检测列表" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>检测列表</h2>
+<h4><a class="anchor" aria-hidden="true" id="功能概述-2"></a><a href="#功能概述-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>功能概述</h4>
+<p>检测列表就是检测任务列表，一条记录就是一个检测任务，检测任务与原始记录单一一对应。系统默认检测任务与检测项目一一对应，支持多个项目整合为一个检测任务。</p>
+<p>以检测任务为单位分配检测任务。同时支持批量操作和单记录操作两种操作方式。</p>
+<h4><a class="anchor" aria-hidden="true" id="操作说明-2"></a><a href="#操作说明-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>操作说明</h4>
+<p>点击{实验室管理}--&gt;{任务管理}--&gt;{检测列表}菜单，弹出<a href="#检测列表页面">检测列表页面</a>,如下图所示：</p>
+<p><html><span id='检测列表页面'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1JE1eOnWehH%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86-%E6%A3%80%E6%B5%8B%E5%88%97%E8%A1%A8%E6%93%8D%E4%BD%9C%E9%A1%B5%E9%9D%A2.png" alt="检测列表页面" title="检测列表页面"></p>
+<p>在检测列表中可以<a href="#批量分配部门">批量分配部门</a>、<a href="#批量分配人员">批量分配人员</a>、<a href="#批量转移部门">批量转移部门</a>和<a href="#批量转移人员">批量转移人员</a>。具体操作如下：</p>
+<ul>
+<li><p><strong>批量分配部门</strong>  选择待分配任务的样品，点击【批量分配部门】，弹出<a href="#批量分配部门操作页面">批量分配部门操作页面</a>执行<a href="#批量分配部门">批量分配部门操作</a>。</p></li>
+<li><p><strong>批量分配人员</strong>  选择待分配任务的样品，点击【批量分配人员】，弹出<a href="#批量分配人员操作页面">批量分配人员操作页面</a>执行<a href="#批量分配人员">批量分配人员操作</a>。</p></li>
+<li><p><strong>批量转移部门</strong> 选择待分配任务的样品，点击【批量转移部门】，弹出<a href="#批量转移部门操作页面">批量转移部门操作页面</a>执行<a href="#批量转移部门">批量转移部门操作</a>。</p></li>
+<li><p><strong>批量转移人员</strong> 选择待分配任务的样品，点击【批量转移人员】，弹出<a href="#批量转移人员操作页面">批量转移人员操作页面</a>执行<a href="#批量转移人员">批量转移人员操作</a>。</p></li>
+</ul>
+<p>在操作列中，可以针对当前检测任务<a href="#分配检测部门">分配检测部门</a>、<a href="#分配检测人员">分配检测人员</a>、<a href="#转移部门">转移部门</a>和<a href="#转移人员">转移人员</a>。具体操作如下：</p>
+<ul>
+<li><p><strong>分配检测部门</strong> 点击当前检测任务右端【操作】--&gt;【分配检测部门】，弹出<a href="#检测部门任务分配页面">检测部门任务分配页面</a>执行<a href="#检测部门任务分配操作">检测部门任务分配操作</a>。</p></li>
+<li><p><strong>分配检测人员</strong> 点击当前检测任务右端【操作】--&gt;【分配检测人员】，弹出<a href="#检测人员任务分配页面">检测人员任务分配页面</a>执行<a href="#检测人员任务分配操作">检测人员任务分配操作</a>。</p></li>
+<li><p><strong>转移部门</strong>  点击当前样品右端【操作】--&gt;【转移部门】，弹出<a href="#转移部门操作页面">转移部门操作页面</a>执行<a href="#转移部门">转移部门操作</a>。</p></li>
+<li><p><strong>转移人员</strong>   点击当前样品右端【操作】--&gt;【转移人员】，弹出<a href="#转移人员操作页面">转移人员操作页面</a>执行<a href="#转移人员">转移人员操作</a>。</p></li>
+</ul>
+<p><html><span id='制样部门任务分配'></span></html></p>
+<h2><a class="anchor" aria-hidden="true" id="制样部门任务分配"></a><a href="#制样部门任务分配" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>制样部门任务分配</h2>
+<h4><a class="anchor" aria-hidden="true" id="功能概述-3"></a><a href="#功能概述-3" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>功能概述</h4>
+<p>支持全部分配和单样品分配两种分配方式。<a href="#制样部门任务分配操作页面">制样部门任务分配操作页面</a>,如下图所示：
+<html><span id='制样部门任务分配操作页面'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1JE2cc2feOd%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86-%E5%88%B6%E6%A0%B7%E9%83%A8%E9%97%A8%E4%BB%BB%E5%8A%A1%E5%88%86%E9%85%8D%E6%93%8D%E4%BD%9C%E9%A1%B5%E9%9D%A2.png" alt="制样部门任务分配操作页面" title="制样部门任务分配操作页面"></p>
+<p>在操作页面中，分三个区域。左边区域部分为待分配样品区域，右上角区域部分为可分配部门区域，右下角区域部分为已分配样品区域。</p>
+<h4><a class="anchor" aria-hidden="true" id="操作说明-3"></a><a href="#操作说明-3" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>操作说明</h4>
+<p><strong>第一步 选择部门</strong> 在可分配部门区域中点击需要分配任务的部门。</p>
+<p><strong>第二步 分配样品</strong> 可通过如下操作实现分配样品：</p>
+<ul>
+<li><p><strong>全部分配</strong> 在待分配样品区域点击【→→】，所有待分配样品自动移动到已分配样品区域。</p></li>
+<li><p><strong>单个样品分配</strong> 在待分配样品区域点击需要分配的样品，所点待分配样品自动移动到已分配样品区域。</p></li>
+<li><p><strong>取消全部分配</strong> 若需取消全部分配，则在已分配样品区域点击【←←】，所有样品自动移动到待分配样品区域。</p></li>
+<li><p><strong>取消单个样品分配</strong> 若需取消单个样品分配，则在已分配样品区域点击需要取消分配的样品，所点样品自动移动到待分配样品区域。</p></li>
+</ul>
+<p><strong>第三步 完成分配</strong></p>
+<ul>
+<li><p><strong>保存样品分配结果</strong> 如需确定保存样品分配信息，则点击【分配完成】，<a href="#制样部门任务分配操作页面">制样部门任务分配操作页面</a>关闭并返回到<a href="#委托列表页面">委托列表页面</a>;</p></li>
+<li><p><strong>不保存样品分配结果</strong> 如不需要保存样品分配信息，则点击【等会再分】，<a href="#制样部门任务分配操作页面">制样部门任务分配操作页面</a>关闭并返回到<a href="#委托列表页面">委托列表页面</a>;</p></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="检测部门任务分配"></a><a href="#检测部门任务分配" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>检测部门任务分配</h2>
+<h4><a class="anchor" aria-hidden="true" id="功能概述-4"></a><a href="#功能概述-4" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>功能概述</h4>
+<p>支持全部分配和单检测任务分配两种分配方式。
+<a href="#检测部门任务分配页面">检测部门任务分配页面</a>,如下图所示：</p>
+<p><html><span id='检测部门任务分配页面'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1JE2KVw4Cvo%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86-%E6%A3%80%E6%B5%8B%E9%83%A8%E9%97%A8%E4%BB%BB%E5%8A%A1%E5%88%86%E9%85%8D%E6%93%8D%E4%BD%9C%E9%A1%B5%E9%9D%A2.png" alt="检测部门任务分配页面" title="检测部门任务分配页面"></p>
+<p>在操作页面中，分三个区域。左边区域部分为待分配检测任务区域，右上角区域部分为可分配部门区域，右下角区域部分为已分配检测任务区域。</p>
+<h4><a class="anchor" aria-hidden="true" id="操作说明-4"></a><a href="#操作说明-4" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>操作说明</h4>
+<p><strong>第一步 选择部门</strong> 在可分配部门区域中点击需要分配任务的部门。</p>
+<p><strong>第二步 分配检测项目</strong> 可通过如下操作实现分配检测项目：</p>
+<ul>
+<li><p><strong>全部分配</strong> 在待分配检测项目区域点击【→→】，所有待分配检测项目的所有项次自动移动到已分配检测项目区域。</p></li>
+<li><p><strong>单个检测项目指定数量的检测项次分配</strong> 在待分配检测项目区域，录入需要分配的检测项次数，点击【分配】，所点待分配项次自动移动到已分配检测项目区域。</p></li>
+<li><p><strong>取消全部分配</strong> 若需取消全部分配，则在已分配检测项目区域点击【←←】，所有已分配检测项次自动移动到待分配检测项目区域。</p></li>
+<li><p><strong>取消单个检测项目指定数量的检测项次分配</strong> 若需取消单个检测项目分配，则在已分配检测项目区域，录入需要分配的检测项次数，点击【撤销】，所点已分配检测项目的指定数量的检测项次自动移动到待分配检测项目区域。</p></li>
+</ul>
+<p><strong>第三步 完成分配</strong></p>
+<ul>
+<li><p><strong>保存检测项目分配结果</strong> 如需确定保存检测项目分配信息，则点击【分配完成】，<a href="#检测部门任务分配页面">检测部门任务分配页面</a>关闭并返回。</p></li>
+<li><p><strong>不保存检测项目分配结果</strong> 如不需要保存检测项目分配信息，则点击【等会再分】，<a href="#检测部门任务分配页面">检测部门任务分配页面</a>关闭并返回。</p></li>
+</ul>
+<p><html><span id='制样人员任务分配'></span></html></p>
+<h2><a class="anchor" aria-hidden="true" id="制样人员任务分配"></a><a href="#制样人员任务分配" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>制样人员任务分配</h2>
+<h4><a class="anchor" aria-hidden="true" id="功能概述-5"></a><a href="#功能概述-5" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>功能概述</h4>
+<p>支持全部分配、单样品分配和平均分配三种操作方式。
+<a href="#制样人员任务分配页面">制样人员任务分配页面</a>,如下图所示：</p>
+<p><html><span id='制样人员任务分配页面'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1JE3HPa3UEv%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86-%E5%88%B6%E6%A0%B7%E4%BA%BA%E5%91%98%E4%BB%BB%E5%8A%A1%E5%88%86%E9%85%8D%E6%93%8D%E4%BD%9C%E9%A1%B5%E9%9D%A2.png" alt="制样人员任务分配页面" title="制样人员任务分配页面"></p>
+<p>在操作页面中，分三个区域。左边区域部分为待分配样品区域，右上角区域部分为可分配人员区域，右下角区域部分为已分配样品区域。</p>
+<h4><a class="anchor" aria-hidden="true" id="操作说明-5"></a><a href="#操作说明-5" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>操作说明</h4>
+<p>在<a href="#制样人员任务分配页面">制样人员任务分配页面</a>中，可执行如下操作：</p>
+<p><strong>1)全部分配和单样品分配</strong> 全部分配，将全部待分配样品一次性分配给指定的人员；单样品分配，将当前点击的样品分配给指定的人员。操作步骤如下：</p>
+<p><strong>第一步 选择人员</strong> 在可分配人员区域中点击需要分配任务的人员。</p>
+<p><strong>第二步 分配样品</strong> 可通过如下操作分配样品：</p>
+<ul>
+<li><p><strong>全部分配</strong> 在待分配样品区域点击【→→】，所有待分配样品自动移动到已分配样品区域。</p></li>
+<li><p><strong>单个样品分配</strong> 在待分配样品区域点击需要分配的样品，所点待分配样品自动移动到已分配样品区域。</p></li>
+<li><p><strong>取消全部分配</strong> 若需取消全部分配，则在已分配样品区域点击【←←】，所有样品自动移动到待分配样品区域。</p></li>
+<li><p><strong>取消单个样品分配</strong> 若需取消单个样品分配，则在已分配样品区域点击需要取消分配的样品，所点样品自动移动到待分配样品区域。</p></li>
+</ul>
+<p><html><span id='第三步完成分配'></span></html></p>
+<p><strong>第三步 完成分配</strong></p>
+<ul>
+<li><p><strong>保存样品分配结果</strong> 如需确定保存样品分配信息，则点击【分配完成】，<a href="#制样部门任务分配操作页面">制样部门任务分配操作页面</a>关闭并返回到<a href="#委托列表页面">委托列表页面</a>;</p></li>
+<li><p><strong>不保存样品分配结果</strong> 如不需要保存样品分配信息，则点击【等会再分】，<a href="#制样部门任务分配操作页面">制样部门任务分配操作页面</a>关闭并返回到<a href="#委托列表页面">委托列表页面</a>;</p></li>
+</ul>
+<p><strong>2）平均分配</strong> 将全部待分配样品平均分配给全部可分配的人员。操作步骤如下：</p>
+<p><strong>第一步 分配样品</strong></p>
+<ul>
+<li><p><strong>平均分配</strong>
+在待分配样品区域点击【平均分配】，所有待分配样品自动均匀地移动到已分配样品区域。例如：共有10个待分配样品，有两个可分配人员，则每人分配5个样品。</p></li>
+<li><p><strong>撤销全部分配</strong> 若需取消全部分配，则在已分配样品区域点击【←←】，当前可分配人员所有已分配样品自动移动到待分配样品区域。</p></li>
+<li><p><strong>取消单个样品分配</strong> 若需取消单个样品分配，则在已分配样品区域点击需要取消分配的样品当前可分配人员所点已分配样品自动移动到待分配样品区域。</p></li>
+</ul>
+<p><strong>第二步 完成分配</strong>  同<a href="#第三步完成分配">全部分配和单样品分配 第三步完成分配</a>。</p>
+<p><html><span id='检测人员任务分配'></span></html></p>
+<h2><a class="anchor" aria-hidden="true" id="检测人员任务分配"></a><a href="#检测人员任务分配" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>检测人员任务分配</h2>
+<h4><a class="anchor" aria-hidden="true" id="功能概述-6"></a><a href="#功能概述-6" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>功能概述</h4>
+<p>支持全部分配、单样品分配和平均分配三种方式。<a href="#检测人员任务分配页面">检测人员任务分配页面</a>,如下图所示：</p>
+<p><html><span id='检测人员任务分配页面'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1JE4cZotUlJ%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86-%E6%A3%80%E6%B5%8B%E4%BA%BA%E5%91%98%E4%BB%BB%E5%8A%A1%E5%88%86%E9%85%8D%E6%93%8D%E4%BD%9C%E9%A1%B5%E9%9D%A2.png" alt="检测人员任务分配页面" title="检测人员任务分配页面"></p>
+<p>在操作页面中，分三个区域。左边区域部分为待分配检测任务区域，右上角区域部分为可分配人员区域，右下角区域部分为已分配检测任务区域。</p>
+<h4><a class="anchor" aria-hidden="true" id="操作说明-6"></a><a href="#操作说明-6" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>操作说明</h4>
+<p>在<a href="#检测人员任务分配页面">检测人员任务分配页面</a>中，可执行如下操作：</p>
+<p><strong>1)全部分配和单检测项目分配</strong> 全部分配，将全部待分配检测项目的全部项次一次性分配给指定的人员；单检测项目分配，将当前检测项目的指定数量的项次分配给指定的人员。操作步骤如下：</p>
+<p><strong>第一步 选择</strong> 在可分配人员区域中点击需要分配任务的人员。</p>
+<p><strong>第二步 分配检测项目</strong> 可通过如下操作实现分配检测项目：</p>
+<ul>
+<li><p><strong>全部分配</strong> 在待分配检测项目区域点击【→→】，所有待分配检测项目的所有项次自动移动到已分配检测项目区域。</p></li>
+<li><p><strong>单个检测项目指定数量的检测项次分配</strong> 在待分配检测项目区域，录入需要分配的检测项次数，点击【分配】，所点待分配项次自动移动到已分配检测项目区域。</p></li>
+<li><p><strong>取消全部分配</strong> 若需取消全部分配，则在已分配检测项目区域点击【←←】，所有已分配检测项次自动移动到待分配检测项目区域。</p></li>
+<li><p><strong>取消单个检测项目指定数量的检测项次分配</strong> 若需取消单个检测项目分配，则在已分配检测项目区域，录入需要分配的检测项次数，点击【撤回】，所点已分配检测项目的指定数量的检测项次自动移动到待分配检测项目区域。</p></li>
+</ul>
+<p><html><span id='1222222222222'></span></html></p>
+<p><strong>第三步 完成分配</strong></p>
+<ul>
+<li><p><strong>保存检测项目分配结果</strong> 如需确定保存检测项目分配信息，则点击【分配完成】，<a href="#检测部门任务分配页面">检测部门任务分配页面</a>关闭并返回到<a href="#委托列表页面">委托列表页面</a>;</p></li>
+<li><p><strong>不保存检测项目分配结果</strong> 如不需要保存检测项目分配信息，则点击【等会再分】，<a href="#检测部门任务分配页面">检测部门任务分配页面</a>关闭并返回到<a href="#委托列表页面">委托列表页面</a>;</p></li>
+</ul>
+<p><strong>2）平均分配</strong> 将全部待分配检测项次平均分配给全部可分配的人员。操作步骤如下：</p>
+<p><strong>第一步 分配检测项目</strong> 可通过如下操作实现分配检测项目：</p>
+<ul>
+<li><p><strong>平均分配</strong>
+在待分配检测项目区域点击【平均分配】，所有待分配检测项目的项次数自动均匀地移动到已分配检测项目区域。例如：共有10个待分配检测项次，有两个可分配人员，则每人分配5个项次。</p></li>
+<li><p><strong>取消全部分配</strong> 若需取消全部分配，则在已分配检测项目区域点击【←←】，当前可分配检测人员所有已分配检测项次自动移动到待分配检测项目区域。</p></li>
+<li><p><strong>取消单个检测项目指定数量的检测项次分配</strong> 若需取消单个检测项目分配，则在已分配检测项目区域，录入需要分配的检测项次数，点击【撤回】，当前可分配检测人员所点击已分配检测项目的指定数量的检测项次自动移动到待分配检测项目区域。</p></li>
+</ul>
+<p><strong>第三步 完成分配</strong> 同<a href="#1222222222222"><strong>全部分配和单检测项目分配 第三步</strong> </a></p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/next/docs-orders"><span class="arrow-prev">← </span><span>委托管理</span></a><a class="docs-next button" href="/docs/next/docs-samples"><span>样品管理</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#委托列表">委托列表</a></li><li><a href="#样品列表">样品列表</a></li><li><a href="#检测列表">检测列表</a></li><li><a href="#制样部门任务分配">制样部门任务分配</a></li><li><a href="#检测部门任务分配">检测部门任务分配</a></li><li><a href="#制样人员任务分配">制样人员任务分配</a></li><li><a href="#检测人员任务分配">检测人员任务分配</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.svg" alt="亿检链" width="66" height="58"/></a><div><h5>关于</h5><a href="/docs/en/docs-about.html">关于本文档</a><a href="/docs/en/docs-limschain.html">关于本平台</a><a href="/docs/en/docs-buy.html">如何购买？</a></div><div><h5>社区</h5><a href="https://weibo.com/6625552361/profile?rightmod=1&amp;wvr=6&amp;mod=personinfo" target="_blank" rel="noreferrer noopener">微博</a><a href="http://t.me/limschain">Telegram</a><a href="https://www.facebook.com/limschian_org" target="_blank" rel="noreferrer noopener">Facebook</a></div><div><h5>更多</h5><a href="https://github.com/">GitHub</a><a class="github-button" href="https://github.com/limschain/lims-docs" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="http://limschain.com/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/logo.svg" alt="Limschain" width="170" height="45"/></a><section class="copyright">Copyright © 2019 limschain inc.</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: '50f146671f366ad09b75adac10937be8',
+                indexName: 'github',
+                inputSelector: '#search_input_react'
+              });
+            </script></body></html>

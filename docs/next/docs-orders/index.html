@@ -1,0 +1,325 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>委托管理 · 亿检链</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;&lt;strong&gt;委托管理&lt;/strong&gt; 就是对客户委托的检测业务进行受理和管控，包括委托列表、委托登记、委托审核以及重新编辑驳回的委托单。&lt;/p&gt;
+"/><meta name="docsearch:version" content="next"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="委托管理 · 亿检链"/><meta property="og:type" content="website"/><meta property="og:url" content="http://help.limschain.com/"/><meta property="og:description" content="&lt;p&gt;&lt;strong&gt;委托管理&lt;/strong&gt; 就是对客户委托的检测业务进行受理和管控，包括委托列表、委托登记、委托审核以及重新编辑驳回的委托单。&lt;/p&gt;
+"/><meta property="og:image" content="http://help.limschain.com/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="http://help.limschain.com/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-forest-light.min.css"/><link rel="stylesheet" href="https://docusaurus.io/style.css"/><link rel="stylesheet" href="http://css.link" type="text/css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100}
+          )
+        });
+        </script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/logo.svg" alt="亿检链"/><h2 class="headerTitleWithLogo">亿检链</h2></a><a href="/versions"><h3>next</h3></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/next/docs-about" target="_self">文档</a></li><li class="siteNavGroupActive siteNavItemActive"><a href="/docs/next/docs-orders" target="_self">接口</a></li><li class=""><a href="/help" target="_self">帮助</a></li><li class=""><a href="https://github.com/limschain/lims-docs" target="_self">GitHub</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>功能介绍</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">入门知识</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/next/docs-about">关于本文档</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-limschain">关于产品</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-buy">如何购买</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">功能介绍</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/docs/next/docs-orders">委托管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-tasks">任务管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-samples">样品管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-missions">检测管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-reports">报告管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-employees">人员管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-departments">部门管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-roles">岗位管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-equipment">设备管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-material">标准物质</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-customers">客户管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-performance">绩效管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-subcontract">分包管理</a></li><li class="navListItem"><a class="navItem" href="/docs/next/docs-finance">财务管理</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">参与维护</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/next/docs-readme">如何贡献</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/limschain/lims-docs/edit/master/docs/lims-docs-orders.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">委托管理</h1></header><article><div><span><p><strong>委托管理</strong> 就是对客户委托的检测业务进行受理和管控，包括委托列表、委托登记、委托审核以及重新编辑驳回的委托单。</p>
+<p><html><span id='orders'></span></html></p>
+<h2><a class="anchor" aria-hidden="true" id="委托列表"></a><a href="#委托列表" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>委托列表</h2>
+<h4><a class="anchor" aria-hidden="true" id="功能概述"></a><a href="#功能概述" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>功能概述</h4>
+<p>委托列表就是委托单的列表，一条记录就是一个委托单。委托单又称委托协议、委托合同、合同、抽样单。</p>
+<p>可以<a href="#orders/NewOrder">创建</a>、<a href="#orders/SubmitForContractReview"> 提交审核</a>和<a href="#orders/PrintContract"> 打印</a>委托单。</p>
+<h4><a class="anchor" aria-hidden="true" id="产品特色"></a><a href="#产品特色" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>产品特色</h4>
+<ul>
+<li><p><strong>支持动态表单</strong> 就是动态定义需要登记的委托单基本信息和样品基本信息。不同的检测性质可以登记不同的信息；不同的样品类别，可以登记不同的信息。</p></li>
+<li><p><strong>支持自定义打印模板</strong> 就是跟据需要定义和选择委托单打印模板。</p></li>
+</ul>
+<h4><a class="anchor" aria-hidden="true" id="操作说明"></a><a href="#操作说明" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>操作说明</h4>
+<p>点击{实验室管理}--&gt;{委托管理}--&gt;{委托列表}菜单，弹出<a href="#委托列表页面">委托列表页面</a>，如下图所示：
+<img src="http://datmfiles.ebookchain.org/1JDjsjMfRLG%E5%A7%94%E6%89%98%E7%AE%A1%E7%90%86-%E5%A7%94%E6%89%98%E5%88%97%E8%A1%A8.png" alt="委托列表页面" title="委托列表页面"></p>
+<p>在<a href="#委托列表页面">委托列表页面</a>中，可执行如下操作：</p>
+<p><html><span id='orders/NewOrder'></span></html></p>
+<ul>
+<li><strong>创建委托单</strong>  点击【创建委托单】按钮，<a href="#orders/new">录入委托单基本信息</a>。</li>
+</ul>
+<p><html><span id='orders/SubmitForContractReview'></span></html></p>
+<ul>
+<li><strong>提交审核</strong>  点击当前委托单右端【操作】--&gt;【提交审核】，<a href="#orders/review">执行委托审核</a>。</li>
+</ul>
+<p><html><span id='orders/PrintContract'></span></html></p>
+<ul>
+<li><strong>打印</strong> 点击当前委托单右端【操作】--&gt;【打印委托单】，<a href="#orders/review">执行打印</a>。</li>
+</ul>
+<p><html><span id='orders/new'></span></html></p>
+<h2><a class="anchor" aria-hidden="true" id="委托登记"></a><a href="#委托登记" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>委托登记</h2>
+<p>委托登记就是手工创建委托单，操作步骤如下表所示：</p>
+<table>
+<thead>
+<tr><th>步骤</th><th>描述</th><th>是否必须</th></tr>
+</thead>
+<tbody>
+<tr><td>第一步</td><td><a href="#orders/new">创建委托单</a></td><td>√</td></tr>
+<tr><td>第二步</td><td>如果需要采样或者抽样，则<a href="#orders/new/SampleTypeInfo">登记样品类型信息</a>；否则<a href="#orders/new/SampleInfo">样品登记</a></td><td>√</td></tr>
+<tr><td>第三步</td><td><a href="#orders/new/AddTestItem">添加检测项目</a></td><td>√</td></tr>
+<tr><td>第四步</td><td><a href="#orders/review/SubmitForContractReview">提交审核</a></td><td>×</td></tr>
+</tbody>
+</table>
+<p><html><span id='orders/new'></span></html></p>
+<h3><a class="anchor" aria-hidden="true" id="创建委托单"></a><a href="#创建委托单" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>创建委托单</h3>
+<h4><a class="anchor" aria-hidden="true" id="操作说明-1"></a><a href="#操作说明-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>操作说明</h4>
+<p><strong>操作路径一：</strong> 点击{实验室管理}--&gt;{委托管理}--&gt;{委托登记}菜单，弹出<a href="#orders/new-page">委托单基本信息页面</a>，如下图所示：</p>
+<p><strong>操作路径二：</strong> 点击{实验室管理}--&gt;{委托管理}--&gt;{委托列表}--&gt;【创建委托单】，弹出<a href="#orders/new-page">委托单基本信息页面</a>，如下图所示：</p>
+<p><html><span id='orders/new-page'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1JDpHKwg0ON%E5%A7%94%E6%89%98%E7%AE%A1%E7%90%86-%E5%A7%94%E6%89%98%E5%88%97%E8%A1%A8-%E5%88%9B%E5%BB%BA%E5%A7%94%E6%89%98%E5%8D%95%E6%93%8D%E4%BD%9C%E9%A1%B5%E9%9D%A2.png" alt="委托登记-委托单基本信息页面" title="委托单基本信息页面"></p>
+<p>操作步骤如下表所示：</p>
+<table>
+<thead>
+<tr><th>步骤</th><th>描述</th><th>是否必须</th></tr>
+</thead>
+<tbody>
+<tr><td>第一步 <a href="#orders/new/UnitInfo">录入委托单位基本信息</a></td><td>就是客户信息</td><td>√</td></tr>
+<tr><td>第二步 <a href="#orders/new/OrderInfo">录入订单信息</a></td><td>就是委托信息，包括委托业务、委托费用、样品类别及处理方式等信息</td><td>√</td></tr>
+<tr><td>第三步 录入报告信息</td><td>检验报告相关信息，包括报告语言、数量、领取方式等信息</td><td>×</td></tr>
+<tr><td>第四步 录入时间信息</td><td>委托单相关时间信息，包括委托登记日期、客户要求完成日期等信息。</td><td>×</td></tr>
+<tr><td>第五步 <a href="#保存委托单信息">保存委托单信息</a></td><td></td><td>√</td></tr>
+</tbody>
+</table>
+<p><html><span id='orders/new/UnitInfo'></span></html></p>
+<p><strong>录入委托单位基本信息</strong></p>
+<ul>
+<li>录入方式一：首次录入委托单位信息，平台“客户信息”中<strong>不存在</strong>当前委托单位信息。此时，在编辑框中直接录入信息，点击【保存】按钮，委托单位信息保存到“委托列表”的同时保存到云端“客户信息”。</li>
+<li>录入方式二：平台“客户信息”中<strong>已存在</strong>当前委托单位信息。操作步骤如下表所示：</li>
+</ul>
+<table>
+<thead>
+<tr><th>步骤</th><th>描述</th><th>备注</th><th>是否必须</th></tr>
+</thead>
+<tbody>
+<tr><td>第一步</td><td>在委托单位编辑框中录入委托单位名称的关键字</td><td></td><td>√</td></tr>
+<tr><td>第二步</td><td>系统会自动根据关键字从“客户信息”检索符合条件的委托单位</td><td>下拉框</td><td>√</td></tr>
+<tr><td>第三步</td><td>选择委托单位信息</td><td></td><td>√</td></tr>
+<tr><td>第四步</td><td>系统自动抓取委托单位的联系人、联系电话、联系邮箱、联系地址信息</td><td>也可修改这些信息</td><td>×</td></tr>
+</tbody>
+</table>
+<blockquote>
+<p><em>注意：修改的信息同时会更新到“客户信息”</em></p>
+</blockquote>
+<p><html><span id='orders/new/OrderInfo'></span></html></p>
+<p><strong>录入订单信息</strong></p>
+<ul>
+<li>检测领域：不同的检测领域，需要登记的样品信息不同，<a href="">样品信息登记模板</a>不同。当前版本支持食品检测和环境检测两大领域。</li>
+<li>来样方式：来样方式，决定是否需要采样或抽样。</li>
+<li>余样处理方式：包括&lt;授权承检方处置&gt;和&lt;返回客户&gt;，会影响样品处置方式。</li>
+</ul>
+<blockquote>
+<p><em>温馨提醒：检测领域和来样方式决定样品登记还是登记样品类型信息</em></p>
+</blockquote>
+<p><html><span id='保存委托单信息'></span></html></p>
+<p><strong>保存委托单信息</strong>
+以上三部分信息录入完成之后，点击【保存，添加样品信息】按钮，保存信息到云端，同时弹出。如果需要采样或者抽样，则<a href="#登记样品类型信息（需要抽样/采样）">登记样品类型信息</a>；否则<a href="#样品登记（无需抽样/采样）">登记送检样品信息</a>。</p>
+<p><html><span id='样品登记（无需抽样/采样）'></span></html></p>
+<h3><a class="anchor" aria-hidden="true" id="样品登记-无需抽样-采样"></a><a href="#样品登记-无需抽样-采样" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>样品登记（无需抽样/采样）</h3>
+<h4><a class="anchor" aria-hidden="true" id="功能概述-1"></a><a href="#功能概述-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>功能概述</h4>
+<p>样品登记就是给委托单添加样品信息，样品信息是根据<a href="#">动态表单</a>自动生成的。样品登记有两种方式，一种交接表导入，一种是手动录入。</p>
+<ul>
+<li>交接表导入：适用于批量样品信息登记的场景。比如食品抽样、大批量上门送样。</li>
+<li>手工登记：适用于零散样品信息登记的场景。</li>
+</ul>
+<h4><a class="anchor" aria-hidden="true" id="操作说明-2"></a><a href="#操作说明-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>操作说明</h4>
+<p>操作页面，如下图所示：</p>
+<p><html><span id='orders/new/SampleInfo/page'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1JDHLnxEGXc%E5%A7%94%E6%89%98%E7%AE%A1%E7%90%86-%E5%A7%94%E6%89%98%E4%BF%AE%E6%94%B9%E6%93%8D%E4%BD%9C%E9%A1%B5%E9%9D%A2.png" alt="委托登记-保存并添加样品操作页面" title="保存并添加样品操作页面"></p>
+<ul>
+<li><p><strong>交接表导入</strong> 适用于批量样品信息登记的场景。比如食品抽样、大批量上门送样。</p>
+<p>委托单中没有样品时，只显示“交接表导入”方式，此方式可实现快速导入。用户只需要录入样品的最少必要信息，即可导入系统。以快速开展业务流程。在业务流转过程中，再及时补录详细信息。操作步骤如下表所示：</p></li>
+</ul>
+<p><strong>第一步</strong> 点击【模板下载】，下载<a href="#orders/new/SampleInfoModel">交接表的excel模板</a> ；
+<html><span id='orders/new/SampleInfoModel'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1J9gXJMwzS8LES-%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86-%E5%90%88%E5%90%8C%E7%99%BB%E8%AE%B0-%E6%A0%B7%E5%93%81%E4%BF%A1%E6%81%AF%E5%AF%BC%E5%85%A5%E6%A8%A1%E6%9D%BF%E6%A0%B7%E5%BC%8F.png" alt="样品信息导入模板样式" title="样品信息导入模板样式"></p>
+<p><strong>第二步</strong> 在模板中<a href="">录入、编辑样品信息</a>，保存关闭excel ；</p>
+<p><strong>第三步</strong> 点击选择文件，选择填写好的excel文件 ；</p>
+<p><strong>第四步</strong> 点击【确认导入】即可把样品导入系统 ；</p>
+<p><strong>第五步</strong> 导入后显示<a href="#orders/new/SampleInfo">系统解析后的数据</a> ；
+<html><span id='orders/new/SampleInfo'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1J9meOCVAs2LES-%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86-%E5%90%88%E5%90%8C%E7%99%BB%E8%AE%B0-%E7%B3%BB%E7%BB%9F%E8%A7%A3%E6%9E%90%E5%90%8E%E7%9A%84%E6%A0%B7%E5%93%81%E4%BF%A1%E6%81%AF%E6%95%B0%E6%8D%AE.png" alt="系统解析后的样品信息数据" title="系统解析后的样品信息数据"></p>
+<p><strong>第六步</strong> 点击【确认】按钮后正式导入；</p>
+<p><strong>第七步</strong> 导入样品后，或者手动创建样品后，将出现“详情表导入”功能，</p>
+<p><html><span id='orders/new/SampleInfo'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1J9swo1gBTKLES-%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86-%E5%90%88%E5%90%8C%E7%99%BB%E8%AE%B0-%E6%A0%B7%E5%93%81%E4%BF%A1%E6%81%AF%E8%AF%A6%E6%83%85%E8%A1%A8%E5%AF%BC%E5%85%A5%E5%8A%9F%E8%83%BD.png" alt="样品信息详情表导入功能" title="导入样品后，或者手动创建样品后，将出现“详情表导入”功能"></p>
+<p><strong>第八步</strong> 点击【下载模板】下载<a href="#orders/new/SampleAllInfoModel">样品信息详情的excel模板</a>；详情表样式，根据动态表单由系统自动生成。</p>
+<p><html><span id='orders/new/SampleAllInfoModel'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1J9tMG4AtUdLES-%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86-%E5%90%88%E5%90%8C%E7%99%BB%E8%AE%B0-%E6%A0%B7%E5%93%81%E4%BF%A1%E6%81%AF%E8%AF%A6%E6%83%85%E7%9A%84excel%E6%A8%A1%E6%9D%BF.png" alt="样品信息详情的excel模板" title="样品信息详情的excel模板"></p>
+<p><strong>第九步</strong> 把样品详情填写完整，再次进行导入，具体步骤可参照<a href="#">交接表导入</a>所示第三步到第六步。也可针对各个样品，逐个进行编辑，补充详细信息。</p>
+<ul>
+<li><p><strong>手工登记</strong> 适用于零散样品信息登记的场景。操作步骤如下：</p>
+<p>在<a href="#orders/new/SampleInfo/page">保存并添加样品操作页面</a>中点击【添加样品】，弹出<a href="#新增样品操作页面">新增样品操作页面</a>，如下图所示：</p></li>
+</ul>
+<p><img src="http://datmfiles.ebookchain.org/1JDsWsKTup0%E5%A7%94%E6%89%98%E7%AE%A1%E7%90%86-%E6%B7%BB%E5%8A%A0%E6%A0%B7%E5%93%81%E6%93%8D%E4%BD%9C%E9%A1%B5%E9%9D%A2.png" alt="新增样品操作页面" title="新增样品操作页面"></p>
+<p>在<a href="#新增样品操作页面">新增样品操作页面</a>中输入样品信息，点击【保存】，即可完成样品添加，同时弹出<a href="#添加检测项目操作页面">添加检测项目操作页面</a>,执行<a href="#添加检测项目操作">添加检测项目操作</a>。</p>
+<p><html><span id='登记样品类型信息（需要抽样/采样）'></span></html></p>
+<h3><a class="anchor" aria-hidden="true" id="登记样品类型信息-需要抽样-采样"></a><a href="#登记样品类型信息-需要抽样-采样" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>登记样品类型信息（需要抽样/采样）</h3>
+<h4><a class="anchor" aria-hidden="true" id="操作说明-3"></a><a href="#操作说明-3" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>操作说明</h4>
+<p>操作页面，如下图所示：</p>
+<p><html><span id='orders/new/SampleTypeInfo/page'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1J9fYeeDvkyLES-%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86-%E5%90%88%E5%90%8C%E7%99%BB%E8%AE%B0-%E5%BD%95%E5%85%A5%E6%A0%B7%E5%93%81%E7%B1%BB%E5%88%AB%E4%BF%A1%E6%81%AF.png" alt="委托登记-登记样品类别信息页面" title="登记样品类别信息页面"></p>
+<p>样品类别信息是根据动态表单自动生成的。具体操作如下：在<a href="#orders/new/SampleTypeInfo/page">样品类别信息录入页面</a>中，输入样品类别信息，点击【登记】即可完成样品类别信息的添加。</p>
+<p><html><span id='orders/new/AddTestItem'></span></html></p>
+<h3><a class="anchor" aria-hidden="true" id="添加检测项目"></a><a href="#添加检测项目" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>添加检测项目</h3>
+<h4><a class="anchor" aria-hidden="true" id="操作说明-4"></a><a href="#操作说明-4" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>操作说明</h4>
+<p>在<a href="#添加检测项目页面">添加检测项目页面</a>中，可执行检索检测项目、添加检测项目、复制检测项目、创建检测项目和删除检测项目操作。操作页面，如下图所示：</p>
+<p><html><span id='添加检测项目操作页面'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1JDweq1O5No%E5%A7%94%E6%89%98%E7%AE%A1%E7%90%86-%E6%B7%BB%E5%8A%A0%E6%A3%80%E6%B5%8B%E9%A1%B9%E7%9B%AE%E6%93%8D%E4%BD%9C%E9%A1%B5%E9%9D%A2.png" alt="委托登记-添加检测项目操作页面" title="添加检测项目页面"></p>
+<ul>
+<li><p><strong>检索检测项目</strong> 就是根据编辑框中提示的条件关键字，检索标准库中的检测项目。可根据样品编号、检测项目、判定依据、检测依据、技术要求、限量单位和样品分类检索。其中根据样品编号检索适用于参照已送检样品检测项目的场景。</p></li>
+<li><p><strong>添加检测项目</strong> 就是选择并将标准库中的检测项目添加到当前样品或样品类型上。添加检测项目有两种方式:</p>
+<p><strong>(1) 导航添加</strong> 添加完样品/样品类型信息，点击【保存】，系统自动弹出<a href="#添加检测项目操作页面">添加检测项目操作页面</a> 。</p>
+<p><strong>(2) 直接添加</strong> 在<a href="">委托样品列表</a>或<a href="">委托样品类型列表</a>中，点击【添加项目】，系统自动弹出<a href="#添加检测项目操作页面">添加检测项目操作页面</a>。</p></li>
+</ul>
+<p>添加检测项目操作步骤如下表所示：</p>
+<table>
+<thead>
+<tr><th>步骤</th><th>描述</th><th>备注</th><th>是否必须</th></tr>
+</thead>
+<tbody>
+<tr><td>第一步</td><td>检索检测检测项目</td><td></td><td>√</td></tr>
+<tr><td>第二步</td><td>点击需要添加检测项目记录右端的【↓】</td><td></td><td>√</td></tr>
+</tbody>
+</table>
+<p>如果需要添加多个检测项目，则需重复上表步骤。</p>
+<p><html><span id='复制检测项目'></span></html></p>
+<ul>
+<li><p><strong>复制检测项目</strong> 就是选择并将标准库中的检测项目记录信息复制到创建检测项目编辑栏中，供用户修改。操作如下：点击需要复制的检测项目记录右端的【↑】 。</p></li>
+<li><p><strong>创建检测项目</strong> 就是新建标准库不存在的检测项目信息到标准库，同时添加到当前样品或样品类型上。操作步骤如下表所示：</p></li>
+</ul>
+<table>
+<thead>
+<tr><th>步骤</th><th>描述</th><th>备注</th><th>是否必须</th></tr>
+</thead>
+<tbody>
+<tr><td>第一步</td><td><a href="#复制检测项目">复制检测项目</a>或者手工录入检测项目信息</td><td></td><td>√</td></tr>
+<tr><td>第二步</td><td>点击【创建】</td><td></td><td>√</td></tr>
+</tbody>
+</table>
+<blockquote>
+<p><em>注意：创建检测项目会在标准库中自动添加一条记录。</em></p>
+</blockquote>
+<ul>
+<li><p><strong>删除检测项目</strong> 就是删除单个或全部已添加到样品或样品类型的检测项目。
+删除样品或样品类型的检测项目有两种方式：</p>
+<p><strong>(1) 单记录删除</strong> 点击需要添加检测项目记录右端的【↑】。</p>
+<p><strong>(2) 全部删除</strong> 点击标准库与检测项目之间的【↑↑】。</p></li>
+</ul>
+<blockquote>
+<p><em>温馨提醒：删除样品或样品类型的检测项目不会删除标准库中的检测项目。</em></p>
+</blockquote>
+<p><html><span id='orders/review/SubmitForContractReview'></span></html></p>
+<h3><a class="anchor" aria-hidden="true" id="提交审核"></a><a href="#提交审核" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>提交审核</h3>
+<p>提交审核有两种方式：</p>
+<ul>
+<li>在<a href="#委托列表">委托列表</a>中提交审核,具体操作如下：</li>
+</ul>
+<p><strong>第一步</strong> 点击{实验室管理}--&gt;{委托管理}--&gt;{委托列表}菜单，弹出<a href="#委托列表">委托列表</a>。</p>
+<p><strong>第二步</strong> 在<a href="#委托列表">委托列表</a>中点击当前委托单右端【操作】--&gt;【提交审核】，<a href="#orders/review">执行委托审核</a>。</p>
+<ul>
+<li>在<a href="#保存并添加样品操作页面">保存并添加样品操作页面</a>中提交审核，具体操作如下：</li>
+</ul>
+<p><strong>第一步</strong> 点击【提交审核】，弹出<a href="#提交审核确认对话框">提交审核确认对话框</a>，如下图所示：</p>
+<p><html><span id='提交审核确认对话框'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1JJjPytIVL0%E5%A7%94%E6%89%98%E7%AE%A1%E7%90%86-%E6%8F%90%E4%BA%A4%E5%AE%A1%E6%A0%B8%E7%A1%AE%E8%AE%A4%E5%AF%B9%E8%AF%9D%E6%A1%86.png" alt="提交审核确认对话框">
+<strong>第二步</strong> 点击【确定】完成提交审核操作。</p>
+<p><html><span id='orders/review'></span></html></p>
+<h2><a class="anchor" aria-hidden="true" id="委托审核"></a><a href="#委托审核" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>委托审核</h2>
+<h4><a class="anchor" aria-hidden="true" id="操作说明-5"></a><a href="#操作说明-5" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>操作说明</h4>
+<p>点击{实验室管理}--&gt;{委托管理}--&gt;{委托列表}→【委托审核】，弹出<a href="#orders/review/Page">委托审核页面</a>，如下图所示：</p>
+<p><html><span id='委托审核页面'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1JDEOof32UM%E5%A7%94%E6%89%98%E7%AE%A1%E7%90%86-%E5%A7%94%E6%89%98%E5%AE%A1%E6%A0%B8%E6%93%8D%E4%BD%9C%E9%A1%B5%E9%9D%A2.png" alt="委托审核页面" title="委托审核页面"></p>
+<p>在<a href="#委托审核页面">委托审核页面</a>中，可执行操作如下：</p>
+<ul>
+<li><strong>审核通过</strong> 若没有问题，则点击【审核通过】按钮<strong>通过审核</strong>；</li>
+<li><strong>驳回</strong>  如有问题，则点击【驳回】，弹出<a href="#驳回原因填写对话框">驳回原因填写对话框</a>,填写驳回原因后点击【确定】，<strong>驳回</strong>给提交人重新<a href="#orders/reeidt">委托修改</a>。</li>
+</ul>
+<p><html><span id='orders/reeidt'></span></html></p>
+<h2><a class="anchor" aria-hidden="true" id="委托修改"></a><a href="#委托修改" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>委托修改</h2>
+<h4><a class="anchor" aria-hidden="true" id="操作说明-6"></a><a href="#操作说明-6" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>操作说明</h4>
+<p>操作路径：{实验室管理}→{委托管理}→{委托修改}→【操作】→【编辑】，弹出<a href="#orders/reeidt/page">委托修改页面</a>，如下图所示：</p>
+<p><html><span id='orders/reeidt/page'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1JDHLnxEGXc%E5%A7%94%E6%89%98%E7%AE%A1%E7%90%86-%E5%A7%94%E6%89%98%E4%BF%AE%E6%94%B9%E6%93%8D%E4%BD%9C%E9%A1%B5%E9%9D%A2.png" alt="委托修改页面" title="委托修改页面"></p>
+<p>在<a href="#orders/reeidt/page">委托修改页面</a>中，上部是委托单信息，点击右上角的“+”或“-”图标按钮，可以展开或收起委托单信息。</p>
+<p>可执行委托修改基本信息、编辑样品类型信息、编辑样品信息、编辑检测项目、提交审核操作。</p>
+<ul>
+<li><p><strong>委托修改基本信息</strong> 参照委托登记中的<a href="#orders/new">创建委托单</a> 。</p></li>
+<li><p><strong>编辑样品类型信息</strong></p>
+<p><strong>1)编辑</strong> 点击<a href="">样品类型列表</a>中的【编辑】，弹出<a href="#orders/new/SampleTypeInfo/page">样品类别信息录入页面</a>,详细操作参照委托登记中的<a href="#orders/new/SampleTypeInfo">登记样品类型信息</a>。</p>
+<p><strong>2)删除</strong> 点击<a href="">样品类型列表</a>中的【删除】，弹出<a href="">样品类别删除确认对话框</a>,点击【确定】。</p></li>
+</ul>
+<ul>
+<li><p><strong>编辑送检样品信息</strong></p>
+<p><strong>1)编辑</strong> 点击<a href="">样品列表</a>中的【编辑】，弹出<a href="#orders/new/SampleInfo/page">样品登记页面</a>参照委托登记中的<a href="#orders/new/SampleInfo">登记送检样品信息</a></p>
+<p><strong>2)复制</strong> 点击<a href="">样品列表</a>中的【复制】，弹出<a href="">样品复制页面</a>。</p>
+<p><strong>(1)增加</strong> 点击【增加样品信息】可增加复制样品信息，编辑需要修改的信息后点击【完成复制】。</p>
+<p><strong>(2)删除</strong> 点击【删除样品信息】可删除最后一个样品信息
+<img src="http://datmfiles.ebookchain.org/1Jb3vw7zJZkLES-%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86-%E7%BC%96%E8%BE%91%E5%90%88%E5%90%8C-%E5%A4%8D%E5%88%B6%E6%A0%B7%E5%93%81.png" alt="样品类型复制页面" title="样品类型复制页面"></p>
+<p><strong>3)删除</strong> 点击<a href="">样品列表</a>中的【删除】，弹出<a href="">样品类别删除确认对话框</a>,点击【确定】。</p></li>
+<li><p><strong>编辑检测项目</strong></p>
+<p><strong>1)编辑</strong> 点击<a href="">检测项目列表</a>中的【添加项目】，弹出参照委托登记中的<a href="#orders/new/AddTestItem">添加检测项目</a></p>
+<p><strong>2)删除</strong> 在<a href="">检测项目列表</a>中点击需要删除的检测项目记录右端的【删除】，弹出<a href="">样品删除确认对话框</a>,点击【确定】。</p></li>
+<li><p><strong>提交审核</strong> 参照委托登记中的<a href="#orders/review/SubmitForContractReview">提交审核</a></p></li>
+</ul>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/next/docs-buy"><span class="arrow-prev">← </span><span>如何购买</span></a><a class="docs-next button" href="/docs/next/docs-tasks"><span>任务管理</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#委托列表">委托列表</a></li><li><a href="#委托登记">委托登记</a><ul class="toc-headings"><li><a href="#创建委托单">创建委托单</a></li><li><a href="#样品登记-无需抽样-采样">样品登记（无需抽样/采样）</a></li><li><a href="#登记样品类型信息-需要抽样-采样">登记样品类型信息（需要抽样/采样）</a></li><li><a href="#添加检测项目">添加检测项目</a></li><li><a href="#提交审核">提交审核</a></li></ul></li><li><a href="#委托审核">委托审核</a></li><li><a href="#委托修改">委托修改</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.svg" alt="亿检链" width="66" height="58"/></a><div><h5>关于</h5><a href="/docs/en/docs-about.html">关于本文档</a><a href="/docs/en/docs-limschain.html">关于本平台</a><a href="/docs/en/docs-buy.html">如何购买？</a></div><div><h5>社区</h5><a href="https://weibo.com/6625552361/profile?rightmod=1&amp;wvr=6&amp;mod=personinfo" target="_blank" rel="noreferrer noopener">微博</a><a href="http://t.me/limschain">Telegram</a><a href="https://www.facebook.com/limschian_org" target="_blank" rel="noreferrer noopener">Facebook</a></div><div><h5>更多</h5><a href="https://github.com/">GitHub</a><a class="github-button" href="https://github.com/limschain/lims-docs" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="http://limschain.com/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/logo.svg" alt="Limschain" width="170" height="45"/></a><section class="copyright">Copyright © 2019 limschain inc.</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: '50f146671f366ad09b75adac10937be8',
+                indexName: 'github',
+                inputSelector: '#search_input_react'
+              });
+            </script></body></html>
