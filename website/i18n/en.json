@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "基于区块链的检验检测云平台",
+    "tagline": "基于区块链的检验检测管理云平台",
     "docs": {
       "docs-readme": {
         "title": "如何贡献",
@@ -33,6 +33,10 @@
         "title": "设备管理",
         "sidebar_label": "设备管理"
       },
+      "docs-finance": {
+        "title": "财务管理",
+        "sidebar_label": "财务管理"
+      },
       "docs-limschain": {
         "title": "关于产品",
         "sidebar_label": "关于产品"
@@ -49,6 +53,10 @@
         "title": "委托管理",
         "sidebar_label": "委托管理"
       },
+      "docs-performance": {
+        "title": "绩效管理",
+        "sidebar_label": "绩效管理"
+      },
       "docs-reports": {
         "title": "报告管理",
         "sidebar_label": "报告管理"
@@ -61,7 +69,83 @@
         "title": "样品管理",
         "sidebar_label": "样品管理"
       },
+      "docs-subcontract": {
+        "title": "分包管理",
+        "sidebar_label": "分包管理"
+      },
       "docs-tasks": {
+        "title": "任务管理",
+        "sidebar_label": "任务管理"
+      },
+      "version-3.0.0/version-3.0.0-docs-readme": {
+        "title": "如何贡献",
+        "sidebar_label": "如何贡献"
+      },
+      "version-3.0.0/version-3.0.0-docs-about": {
+        "title": "关于本文档",
+        "sidebar_label": "关于本文档"
+      },
+      "version-3.0.0/version-3.0.0-docs-buy": {
+        "title": "如何购买",
+        "sidebar_label": "如何购买"
+      },
+      "version-3.0.0/version-3.0.0-docs-customers": {
+        "title": "客户管理",
+        "sidebar_label": "客户管理"
+      },
+      "version-3.0.0/version-3.0.0-docs-departments": {
+        "title": "部门管理",
+        "sidebar_label": "部门管理"
+      },
+      "version-3.0.0/version-3.0.0-docs-employees": {
+        "title": "人员管理",
+        "sidebar_label": "人员管理"
+      },
+      "version-3.0.0/version-3.0.0-docs-equipment": {
+        "title": "设备管理",
+        "sidebar_label": "设备管理"
+      },
+      "version-3.0.0/version-3.0.0-docs-finance": {
+        "title": "财务管理",
+        "sidebar_label": "财务管理"
+      },
+      "version-3.0.0/version-3.0.0-docs-limschain": {
+        "title": "关于产品",
+        "sidebar_label": "关于产品"
+      },
+      "version-3.0.0/version-3.0.0-docs-material": {
+        "title": "标准物质",
+        "sidebar_label": "标准物质"
+      },
+      "version-3.0.0/version-3.0.0-docs-missions": {
+        "title": "检测管理",
+        "sidebar_label": "检测管理"
+      },
+      "version-3.0.0/version-3.0.0-docs-orders": {
+        "title": "委托管理",
+        "sidebar_label": "委托管理"
+      },
+      "version-3.0.0/version-3.0.0-docs-performance": {
+        "title": "绩效管理",
+        "sidebar_label": "绩效管理"
+      },
+      "version-3.0.0/version-3.0.0-docs-reports": {
+        "title": "报告管理",
+        "sidebar_label": "报告管理"
+      },
+      "version-3.0.0/version-3.0.0-docs-roles": {
+        "title": "岗位管理",
+        "sidebar_label": "岗位管理"
+      },
+      "version-3.0.0/version-3.0.0-docs-samples": {
+        "title": "样品管理",
+        "sidebar_label": "样品管理"
+      },
+      "version-3.0.0/version-3.0.0-docs-subcontract": {
+        "title": "分包管理",
+        "sidebar_label": "分包管理"
+      },
+      "version-3.0.0/version-3.0.0-docs-tasks": {
         "title": "任务管理",
         "sidebar_label": "任务管理"
       }
@@ -79,6 +163,14 @@
     }
   },
   "pages-strings": {
+    "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)|no description given": "Learn more using the [documentation on this site.](/test-site/docs/en/doc1.html)",
+    "Browse Docs|no description given": "Browse Docs",
+    "Ask questions about the documentation and project|no description given": "Ask questions about the documentation and project",
+    "Join the community|no description given": "Join the community",
+    "Find out what's new with this project|no description given": "Find out what's new with this project",
+    "Stay up to date|no description given": "Stay up to date",
+    "Need help?|no description given": "Need help?",
+    "This project is maintained by a dedicated group of people.|statement made to reader": "This project is maintained by a dedicated group of people.",
     "Help Translate|recruit community translators for your project": "Help Translate",
     "Edit this Doc|recruitment message asking to edit the doc source": "Edit",
     "Translate this Doc|recruitment message asking to translate the docs": "Translate"

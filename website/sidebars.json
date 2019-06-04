@@ -11,12 +11,15 @@
       "docs-samples",
       "docs-missions",
       "docs-reports",
-      "docs-customers",
       "docs-employees",
       "docs-departments",
       "docs-roles",
       "docs-equipment",
-      "docs-material"
+      "docs-material",
+      "docs-customers",
+      "docs-performance",
+      "docs-subcontract",
+      "docs-finance"
     ],
     "参与维护": ["docs-readme"]
   }

@@ -1,0 +1,28 @@
+{
+  "version-3.0.0-docs": {
+    "入门知识": [
+      "version-3.0.0-docs-about",
+      "version-3.0.0-docs-limschain",
+      "version-3.0.0-docs-buy"
+    ],
+    "功能介绍": [
+      "version-3.0.0-docs-orders",
+      "version-3.0.0-docs-tasks",
+      "version-3.0.0-docs-samples",
+      "version-3.0.0-docs-missions",
+      "version-3.0.0-docs-reports",
+      "version-3.0.0-docs-employees",
+      "version-3.0.0-docs-departments",
+      "version-3.0.0-docs-roles",
+      "version-3.0.0-docs-equipment",
+      "version-3.0.0-docs-material",
+      "version-3.0.0-docs-customers",
+      "version-3.0.0-docs-performance",
+      "version-3.0.0-docs-subcontract",
+      "version-3.0.0-docs-finance"
+    ],
+    "参与维护": [
+      "version-3.0.0-docs-readme"
+    ]
+  }
+}

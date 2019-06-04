@@ -22,16 +22,16 @@ function Help(props) {
   const supportLinks = [
     {
       content: `详情请浏览(${docUrl(
-        'docs-about.html',
+        'docs-about',
       )})`,
       title: '文档',
     },
     {
-      content: '有其他任何关于本文档和本平台的问题',
+      content: '本平台是全国首款基于区块链的检验检测管理云平台，欢迎您加入。',
       title: '加入社区',
     },
     {
-      content: "有关本平台的最新消息",
+      content: "历时20多个月，产品已经更新到了3.0版本，性能和稳定性都显著提升。",
       title: '最近更新',
     },
   ];
@@ -43,7 +43,6 @@ function Help(props) {
           <header className="postHeader">
             <h1>需要帮助?</h1>
           </header>
-          <p>工程维护者.</p>
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
       </Container>

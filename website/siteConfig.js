@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Limschain帮助', // Title for your website.
-  tagline: '基于区块链的检验检测云平台',
+  title: '亿检链', // Title for your website.
+  tagline: '基于区块链的检验检测管理云平台',
   url: 'http://help.limschain.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -43,8 +43,8 @@ const siteConfig = {
     { doc: 'docs-orders', label: '接口'},
     { page: 'help', label: '帮助'},
     { href: "https://github.com/limschain/lims-docs", label: "GitHub" },
+    { languages: true },
     { search: true },
-    { languages: true }
   ],
 
   // If you have users set above, you add it here:
