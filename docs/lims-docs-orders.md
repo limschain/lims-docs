@@ -183,7 +183,7 @@ sidebar_label: 委托管理
 
 ![委托登记-登记样品类别信息页面](http://datmfiles.ebookchain.org/1J9fYeeDvkyLES-%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86-%E5%90%88%E5%90%8C%E7%99%BB%E8%AE%B0-%E5%BD%95%E5%85%A5%E6%A0%B7%E5%93%81%E7%B1%BB%E5%88%AB%E4%BF%A1%E6%81%AF.png "登记样品类别信息页面")
 
-样品类别信息是根据动态表单自动生成的。具体操作如下：在[样品类别信息录入页面](#orders/new/SampleTypeInfo/page)中，输入样品类别信息，点击【】即可完成样品类别信息的添加。
+样品类别信息是根据动态表单自动生成的。具体操作如下：在[样品类别信息录入页面](#orders/new/SampleTypeInfo/page)中，输入样品类别信息，点击【登记】即可完成样品类别信息的添加。
 
 
 <html><span id='orders/new/AddTestItem'></span></html>
