@@ -10,7 +10,7 @@ LIMSChain以质检机构业务流程管理、实验室资源管理和质量管�
 
 ## 应用流程
 
-![实验室管理系统用户操作流程图](http://datmfiles.ebookchain.org/1FFfxFxW6BKLIMSChain%E6%BC%94%E7%A4%BA%E6%B5%81%E7%A8%8B%E5%9B%BE.png "")
+![实验室管理系统用户操作流程图](http://datmfiles.ebookchain.org/1LH1LOkUD5WLIMSChain-%E6%93%8D%E4%BD%9C%E6%B5%81%E7%A8%8B.png "实验室管理系统用户操作流程图")
 
 ## 意见反馈
 
