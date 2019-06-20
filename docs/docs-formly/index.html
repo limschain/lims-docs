@@ -1,0 +1,164 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>动态表单 · 亿检链</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;&lt;strong&gt;动态表单&lt;/strong&gt; 同一种业务表单，由于业务场景不同，业务表单需要记录的信息有一定差异。为灵活适应同一种业务表单不同业务场景的信息记录需求，特开发了“动态表单”模块。该模块允许用户为委托业务表单、样品登记业务表单、检测任务表单、采样方案表单等业务表单录入内容进行定制。平台默认提供一套完善的表单，用户可以根据需要修改，也可以新增表单，在业务登记时选择合适的业务表单。&lt;/p&gt;
+"/><meta name="docsearch:version" content="3.0.0"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="动态表单 · 亿检链"/><meta property="og:type" content="website"/><meta property="og:url" content="http://help.limschain.com/"/><meta property="og:description" content="&lt;p&gt;&lt;strong&gt;动态表单&lt;/strong&gt; 同一种业务表单，由于业务场景不同，业务表单需要记录的信息有一定差异。为灵活适应同一种业务表单不同业务场景的信息记录需求，特开发了“动态表单”模块。该模块允许用户为委托业务表单、样品登记业务表单、检测任务表单、采样方案表单等业务表单录入内容进行定制。平台默认提供一套完善的表单，用户可以根据需要修改，也可以新增表单，在业务登记时选择合适的业务表单。&lt;/p&gt;
+"/><meta property="og:image" content="http://help.limschain.com/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="http://help.limschain.com/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-forest-light.min.css"/><link rel="stylesheet" href="https://docusaurus.io/style.css"/><link rel="stylesheet" href="http://css.link" type="text/css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100}
+          )
+        });
+        </script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/logo.svg" alt="亿检链"/><h2 class="headerTitleWithLogo">亿检链</h2></a><a href="/versions"><h3>3.0.0</h3></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/docs-about" target="_self">文档</a></li><li class="siteNavGroupActive"><a href="/docs/docs-orders" target="_self">接口</a></li><li class=""><a href="/help" target="_self">帮助</a></li><li class=""><a href="https://github.com/limschain/lims-docs" target="_self">GitHub</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>功能介绍</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">入门知识</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/docs-about">关于本文档</a></li><li class="navListItem"><a class="navItem" href="/docs/docs-limschain">关于产品</a></li><li class="navListItem"><a class="navItem" href="/docs/docs-buy">如何购买</a></li><li class="navListItem"><a class="navItem" href="/docs/docs-FAQ">客户常见问题</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">功能介绍</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/docs-orders">委托管理</a></li><li class="navListItem"><a class="navItem" href="/docs/docs-tasks">任务管理</a></li><li class="navListItem"><a class="navItem" href="/docs/docs-samples">样品管理</a></li><li class="navListItem"><a class="navItem" href="/docs/docs-missions">检测管理</a></li><li class="navListItem"><a class="navItem" href="/docs/docs-reports">报告管理</a></li><li class="navListItem"><a class="navItem" href="/docs/docs-employees">人员管理</a></li><li class="navListItem"><a class="navItem" href="/docs/docs-departments">部门管理</a></li><li class="navListItem"><a class="navItem" href="/docs/docs-roles">岗位管理</a></li><li class="navListItem"><a class="navItem" href="/docs/docs-equipment">设备管理</a></li><li class="navListItem"><a class="navItem" href="/docs/docs-material">标准物质</a></li><li class="navListItem"><a class="navItem" href="/docs/docs-customers">客户管理</a></li><li class="navListItem"><a class="navItem" href="/docs/docs-performance">绩效管理</a></li><li class="navListItem"><a class="navItem" href="/docs/docs-subcontract">分包管理</a></li><li class="navListItem"><a class="navItem" href="/docs/docs-finance">财务管理</a></li><li class="navListItem"><a class="navItem" href="/docs/docs-attests">模板管理</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/docs-formly">动态表单</a></li><li class="navListItem"><a class="navItem" href="/docs/docs-analysis-ledger-summary-edit">报表定制</a></li><li class="navListItem"><a class="navItem" href="/docs/docs-ledger">台账报表</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">参与维护</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/docs-readme">如何贡献</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/limschain/lims-docs/edit/master/docs/lims-docs-formly.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">动态表单</h1></header><article><div><span><p><strong>动态表单</strong> 同一种业务表单，由于业务场景不同，业务表单需要记录的信息有一定差异。为灵活适应同一种业务表单不同业务场景的信息记录需求，特开发了“动态表单”模块。该模块允许用户为委托业务表单、样品登记业务表单、检测任务表单、采样方案表单等业务表单录入内容进行定制。平台默认提供一套完善的表单，用户可以根据需要修改，也可以新增表单，在业务登记时选择合适的业务表单。</p>
+<h2><a class="anchor" aria-hidden="true" id="动态表单列表"></a><a href="#动态表单列表" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>动态表单列表</h2>
+<h4><a class="anchor" aria-hidden="true" id="功能概述"></a><a href="#功能概述" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>功能概述</h4>
+<p><strong>动态表单列表</strong> 就是动态业务表单的列表，一条记录就是一个业务表单。包括创建表单、删除和编辑。</p>
+<p>点击{系统配置}→{动态表单}，弹出业务单据动态表单列表页面，如下图所示：</p>
+<p><img src="http://datmfiles.ebookchain.org/1L9a28NvdFs%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE-%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95-%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E5%88%97%E8%A1%A8.png" alt="业务单据动态表单列表页面" title="业务单据动态表单列表页面"></p>
+<h4><a class="anchor" aria-hidden="true" id="操作说明"></a><a href="#操作说明" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>操作说明</h4>
+<ul>
+<li><p><strong>创建表单</strong> 点击【创建表单】，弹出<a href="#动态表单信息编辑操作页面">动态表单信息编辑页面</a>，执行<a href="#动态表单信息编辑操作">动态表单信息编辑操作</a>。</p></li>
+<li><p><strong>编辑动态表单信息</strong> 点击【编辑】，弹出<a href="#动态表单编辑操作页面">动态表单编辑操作页面</a>，执行<a href="#动态表单编辑操作页面">动态表单编辑操作页面</a></p></li>
+<li><p><strong>删除</strong> 点击【删除】，弹出删除确认对话框，点击【对，删的就是它】完成删除。</p></li>
+</ul>
+<blockquote>
+<p><strong><em>注意：删除操作请务必谨慎进行。请确保列表中至少有一条表单记录，否将无法录入相关业务信息。</em></strong></p>
+</blockquote>
+<p><html><span id='动态表单信息编辑'></span></html></p>
+<h2><a class="anchor" aria-hidden="true" id="动态表单信息编辑"></a><a href="#动态表单信息编辑" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>动态表单信息编辑</h2>
+<h4><a class="anchor" aria-hidden="true" id="操作说明-1"></a><a href="#操作说明-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>操作说明</h4>
+<p>操作页面如下：</p>
+<p><html><span id='动态表单信息编辑操作页面'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1L9cOeYp9oA%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE-%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95-%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E4%BF%A1%E6%81%AF%E7%BC%96%E8%BE%91%E6%93%8D%E4%BD%9C%E9%A1%B5%E9%9D%A2.png" alt="动态表单信息编辑操作页面" title="动态表单信息编辑操作页面"></p>
+<p>操作步骤如下：</p>
+<table>
+<thead>
+<tr><th>步骤</th><th>描述</th><th>备注</th><th>是否必须</th></tr>
+</thead>
+<tbody>
+<tr><td>第一步</td><td>录入动态表单名称</td><td></td><td>√</td></tr>
+<tr><td>第二步</td><td>选择对象名称和对象类型</td><td></td><td>√</td></tr>
+<tr><td>第三步</td><td>点击【创建表单】</td><td></td><td>√</td></tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong><em>温馨提醒：“对象类型”指针对不同的委托类型，系统使用对应的表单。</em></strong></p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="动态表单编辑"></a><a href="#动态表单编辑" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>动态表单编辑</h2>
+<h4><a class="anchor" aria-hidden="true" id="功能概述-1"></a><a href="#功能概述-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>功能概述</h4>
+<p><strong>模板编辑</strong> 就是定义业务表单字段，建立模板中需要填充的数据栏目与平台云端数据库字段映射关系，以便平台将用户录入的业务保存到数据库。操作页面如下图所示：</p>
+<p><html><span id='动态表单编辑操作页面'></span></html></p>
+<p><img src="http://datmfiles.ebookchain.org/1L9gzejKCAe%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE-%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95-%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95%E7%BC%96%E8%BE%91%E6%93%8D%E4%BD%9C%E9%A1%B5%E9%9D%A2.png" alt="动态表单编辑操作页面" title="动态表单编辑操作页面"></p>
+<p>在动态表单编辑操作页面中，分为字段属性区和表单编辑区。如上图所示。</p>
+<h4><a class="anchor" aria-hidden="true" id="操作说明-2"></a><a href="#操作说明-2" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>操作说明</h4>
+<p>字段属性区中定义了表单输入的类型，目前有文本、下拉列表、单选框、复选框、日期、时间、文件上传等类型。未来根据需要进行扩展。可添加、编辑和删除字段，也可定义字段顺序。具体操作如下：</p>
+<ul>
+<li><p><strong>添加字段</strong> 点击左侧的字段类型按钮，弹出字段类型定义操作页面，执行<a href="#字段类型定义操作">字段类型定义操作</a>。</p></li>
+<li><p><strong>编辑字段</strong> 点击某项目的编辑按钮，弹出字段类型定义操作页面，执行<a href="#字段类型定义操作">字段类型定义操作</a>。</p></li>
+<li><p><strong>定义字段顺序</strong> 动态表单编辑操作页面中，可以控制各个输入项目的显示顺序。点击左右移动的箭头，进行顺序移动。</p></li>
+</ul>
+<h4><a class="anchor" aria-hidden="true" id="字段类型定义操作"></a><a href="#字段类型定义操作" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>字段类型定义操作</h4>
+<ul>
+<li><strong>文本字段类型定义操作页面</strong> 文本域字段、日期字段、时间字段、日期&amp;时间字段和上传文件字段类型定义界面与文本字段类型定义操作页面相同，操作相同。如下图所示：
+<img src="http://datmfiles.ebookchain.org/1L9z6Ene2Rr%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE-%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95-%E6%96%87%E6%9C%AC%E8%BE%93%E5%85%A5%E6%A1%86.png" alt="文本字段类型定义操作页面" title="文本字段类型定义操作页面"></li>
+</ul>
+<p>录入相关内容，创建完成后，点击【保存表单】按钮，即可生效。</p>
+<blockquote>
+<p><strong><em>注意：</em></strong></p>
+</blockquote>
+<blockquote>
+<p><strong><em>key</em></strong> 为数据库字段名称，在程序和数据库中使用。必须为英文字母或下划线开头，建议为有明确意义的英文单词或汉语频音字母。例如，Sample_Name。</p>
+</blockquote>
+<blockquote>
+<p><strong><em>Label</em></strong> 为字段的中文标签，在操作页面中显示。必须为英文字母或下划线开头，建议为有明确意义的英文单词或汉语频音字母。例如，样品名称。</p>
+</blockquote>
+<ul>
+<li><strong>下拉表字段类型定义操作页面</strong>
+<img src="http://datmfiles.ebookchain.org/1L9zfroRhDJ%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE-%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95-%E4%B8%8B%E6%8B%89%E5%88%97%E8%A1%A8.png" alt="下拉表字段类型定义操作页面" title="下拉表字段类型定义操作页面"></li>
+</ul>
+<p>基本操作请参照文本框类型字段定义操作，不同的是需要定义下拉选择项。具体操作如下：
+在下拉框数据项目中定义选择项定义，一个编辑框定义一个下拉选择项。通过【添加一行】和【删除一行】定义选择项目数量。</p>
+<ul>
+<li><strong>单选框字段类型定义操作页面</strong></li>
+</ul>
+<p><img src="http://datmfiles.ebookchain.org/1L9zpAoPdAz%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE-%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95-%E5%8D%95%E9%80%89%E6%A1%86.png" alt="单选框字段类型定义操作页面" title="单选框字段类型定义操作页面"></p>
+<p>基本操作请参照文本框类型字段定义操作，不同的是需要定义选择项。具体操作如下：
+在单选框数据项目中定义选择项定义，一个编辑框定义一个选择项。通过【添加一行】和【删除一行】定义选择项目数量。</p>
+<ul>
+<li><strong>复选框字段类型定义操作页面</strong></li>
+</ul>
+<p><img src="http://datmfiles.ebookchain.org/1L9zw9fnT2i%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE-%E5%8A%A8%E6%80%81%E8%A1%A8%E5%8D%95-%E5%A4%8D%E9%80%89%E6%A1%86.png" alt="复选框组字段类型定义操作页面" title="复选框组字段类型定义操作页面"></p>
+<p>基本操作请参照文本框类型字段定义操作，不同的是需要定义选择项。具体操作如下：
+在复选框数据项目中定义选择项定义，一个编辑框定义一个选择项。通过【添加一行】和【删除一行】定义选择项目数量。</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/docs-attests"><span class="arrow-prev">← </span><span>模板管理</span></a><a class="docs-next button" href="/docs/docs-analysis-ledger-summary-edit"><span>报表定制</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#动态表单列表">动态表单列表</a></li><li><a href="#动态表单信息编辑">动态表单信息编辑</a></li><li><a href="#动态表单编辑">动态表单编辑</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.svg" alt="亿检链" width="66" height="58"/></a><div><h5>关于</h5><a href="/docs/en/docs-about.html">关于本文档</a><a href="/docs/en/docs-limschain.html">关于本平台</a><a href="/docs/en/docs-buy.html">如何购买？</a></div><div><h5>社区</h5><a href="https://weibo.com/6625552361/profile?rightmod=1&amp;wvr=6&amp;mod=personinfo" target="_blank" rel="noreferrer noopener">微博</a><a href="http://t.me/limschain">Telegram</a><a href="https://www.facebook.com/limschian_org" target="_blank" rel="noreferrer noopener">Facebook</a></div><div><h5>更多</h5><a href="https://github.com/">GitHub</a><a class="github-button" href="https://github.com/limschain/lims-docs" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="http://limschain.com/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/logo.svg" alt="Limschain" width="170" height="45"/></a><section class="copyright">Copyright © 2019 limschain inc.</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: '50f146671f366ad09b75adac10937be8',
+                indexName: 'github',
+                inputSelector: '#search_input_react'
+              });
+            </script></body></html>
