@@ -3,7 +3,8 @@
     "入门知识": [
       "version-3.0.0-docs-about",
       "version-3.0.0-docs-limschain",
-      "version-3.0.0-docs-buy"
+      "version-3.0.0-docs-buy",
+      "version-3.0.0-docs-FAQ"
     ],
     "功能介绍": [
       "version-3.0.0-docs-orders",
@@ -19,7 +20,12 @@
       "version-3.0.0-docs-customers",
       "version-3.0.0-docs-performance",
       "version-3.0.0-docs-subcontract",
-      "version-3.0.0-docs-finance"
+      "version-3.0.0-docs-finance",
+      "version-3.0.0-docs-attests",
+      "version-3.0.0-docs-formly",
+      "version-3.0.0-docs-analysis-ledger-summary-edit",
+      "version-3.0.0-docs-ledger",
+      "version-3.0.0-docs-reset password"
     ],
     "参与维护": [
       "version-3.0.0-docs-readme"
