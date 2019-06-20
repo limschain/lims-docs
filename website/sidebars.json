@@ -3,7 +3,8 @@
     "入门知识": [
       "docs-about", 
       "docs-limschain",
-      "docs-buy"
+      "docs-buy",
+      "docs-FAQ"
     ],
     "功能介绍": [
       "docs-orders",
@@ -19,7 +20,12 @@
       "docs-customers",
       "docs-performance",
       "docs-subcontract",
-      "docs-finance"
+      "docs-finance",
+      "docs-attests",
+      "docs-formly",
+      "docs-analysis-ledger-summary-edit",
+      "docs-ledger",
+      "docs-reset password"
     ],
     "参与维护": ["docs-readme"]
   }
