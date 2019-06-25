@@ -13,6 +13,14 @@
         "title": "关于本文档",
         "sidebar_label": "关于本文档"
       },
+      "docs-analysis-ledger-summary-edit": {
+        "title": "报表定制",
+        "sidebar_label": "报表定制"
+      },
+      "docs-attests": {
+        "title": "模板管理",
+        "sidebar_label": "模板管理"
+      },
       "docs-buy": {
         "title": "如何购买",
         "sidebar_label": "如何购买"
@@ -33,9 +41,29 @@
         "title": "设备管理",
         "sidebar_label": "设备管理"
       },
+      "docs-FAQ": {
+        "title": "客户常见问题",
+        "sidebar_label": "客户常见问题"
+      },
       "docs-finance": {
         "title": "财务管理",
         "sidebar_label": "财务管理"
+      },
+      "docs-formly": {
+        "title": "动态表单",
+        "sidebar_label": "动态表单"
+      },
+      "docs-journal-report": {
+        "title": "报告统计",
+        "sidebar_label": "报告统计"
+      },
+      "docs-journal-sample": {
+        "title": "样品统计",
+        "sidebar_label": "样品统计"
+      },
+      "docs-ledger": {
+        "title": "台账报表",
+        "sidebar_label": "台账报表"
       },
       "docs-limschain": {
         "title": "关于产品",
@@ -85,6 +113,14 @@
         "title": "关于本文档",
         "sidebar_label": "关于本文档"
       },
+      "version-3.0.0/version-3.0.0-docs-analysis-ledger-summary-edit": {
+        "title": "报表定制",
+        "sidebar_label": "报表定制"
+      },
+      "version-3.0.0/version-3.0.0-docs-attests": {
+        "title": "模板管理",
+        "sidebar_label": "模板管理"
+      },
       "version-3.0.0/version-3.0.0-docs-buy": {
         "title": "如何购买",
         "sidebar_label": "如何购买"
@@ -105,9 +141,29 @@
         "title": "设备管理",
         "sidebar_label": "设备管理"
       },
+      "version-3.0.0/version-3.0.0-docs-FAQ": {
+        "title": "客户常见问题",
+        "sidebar_label": "客户常见问题"
+      },
       "version-3.0.0/version-3.0.0-docs-finance": {
         "title": "财务管理",
         "sidebar_label": "财务管理"
+      },
+      "version-3.0.0/version-3.0.0-docs-formly": {
+        "title": "动态表单",
+        "sidebar_label": "动态表单"
+      },
+      "version-3.0.0/version-3.0.0-docs-journal-report": {
+        "title": "报告统计",
+        "sidebar_label": "报告统计"
+      },
+      "version-3.0.0/version-3.0.0-docs-journal-sample": {
+        "title": "样品统计",
+        "sidebar_label": "样品统计"
+      },
+      "version-3.0.0/version-3.0.0-docs-ledger": {
+        "title": "台账报表",
+        "sidebar_label": "台账报表"
       },
       "version-3.0.0/version-3.0.0-docs-limschain": {
         "title": "关于产品",
